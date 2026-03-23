@@ -30,4 +30,49 @@
   	<url-pattern>/write-ok</url-pattern>
   </servlet-mapping>
   
+  
+  <servlet>
+  	<servlet-name>List</servlet-name>
+  	<jsp-file>/list.jsp</jsp-file>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>List</servlet-name>
+  	<url-pattern>/list</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>Read</servlet-name>
+  	<jsp-file>/read.jsp</jsp-file>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>Read</servlet-name>
+  	<url-pattern>/read</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <servlet>
+  	<servlet-name>Update</servlet-name>
+  	<servlet-class>com.app.servlet.Update</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>Update</servlet-name>
+  	<url-pattern>/update-ok</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  	<servlet-name>update</servlet-name>
+  	<jsp-file>/update.jsp</jsp-file>
+  </servlet>
+  
+  
+  <servlet-mapping>
+  	<servlet-name>update</servlet-name>
+  	<url-pattern>/update</url-pattern>
+  </servlet-mapping>
+  
 </web-app>

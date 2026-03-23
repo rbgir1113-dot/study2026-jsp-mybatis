@@ -18,11 +18,11 @@
 			<input name = "productName" placeholder="상품명" />	
 		</label>
 		<label>
-			<span>재고</span>
+			<span>상품 가격</span>
 			<input name = "productPrice" placeholder="상품 가격" />	
 		</label>
 		<label>
-			<span>상품명</span>
+			<span>상품 재고</span>
 			<input name = "productStock" placeholder="상품 재고" />	
 		</label>
 		<button>상품 등록</button>

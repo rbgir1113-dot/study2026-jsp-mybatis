@@ -6,6 +6,12 @@
       <setting name="mapUnderscoreToCamelCase" value="true"/>
    </settings>
    
+   <typeAliases>
+		<typeAlias type="com.app.vo.ProductVO" alias = "ProductVO"/>
+   </typeAliases>
+   
+   
+   
    <environments default="oracle">
        <environment id="oracle">
           <transactionManager type="JDBC" />
